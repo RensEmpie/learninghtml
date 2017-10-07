@@ -13,7 +13,7 @@ header {
 	font-size: 18px;
 	border-bottom: -20px;
 	background: url("http://poisson.phc.unipi.it/~alfieri/images/header.jpg");
-	background-repeat: ;
+	background-size:cover
 }
 
 header h1 {
