@@ -1,0 +1,83 @@
+/* CSS edit for main bootstrap page */
+
+.navbar {
+  margin-bottom: 0; /* Geen ruimte buiten vlak */
+  border-radius: 0; /* Haalt de ronde hoeken weg */
+  background-color: #3d3d3d; /* Achergrond kleur nav */
+  color: #ffffff; /*Kleur text nav */
+  border: 0; /* Zwarte rand weg */
+  padding: 0.7% 0; /* Maakt valk 0.7% groter boven en onder maar niets aan zijkanten */
+  font-size: 1.2em; /* 1.2X text grootte */
+}
+.navbar-brand {
+  float: left; /* Naar rechter kant */
+  min-height: 55px; /* Grootte op kleinste scherm */
+  padding: 0 15px 5px; /* 0 boven, 15 aan zijkant, 5 onder */
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover { /* Geselecteerd (buiten vlak onselecteren) */
+  color: #ffffff;               /* Textkleur als active/hover/focussed */
+  background-color: #3d3d3d;    /* Geen lelijk vlak eromheen */
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #D5D5D5;
+}
+
+.carousel-caption {    /* Draaimolen text */
+  top: 50%; /* vanaf boven */
+  transform: translateY(-50%); /* vanaf onder */
+  text-transform: uppercase; /* Hoofdletters */
+}
+
+.btn {
+  font-size: 18px; /* Grootte text (dus ook knop) */
+  color: #ffffff; /* text kleur */
+  padding: 12px 22px;
+  background-color: #3d3d3d;
+  border: 2px solid #ffffff;
+}
+
+.container {
+  margin: 4% auto; /* Wat ruimte van boven naar onder */
+}
+
+#icon {
+  max-width: 200px; /* Max grootte van plaatjes */
+  margin: 1% auto; /* 1% van boven en onder, automatisch naar midden van links en rechts */
+}
+
+footer {
+  width=: 100%;
+  background-color: #3d3d3d;
+  padding: 3%;
+  color: #ffffff;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  color: #ffffff;
+}
+.fa:hover {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .fa{
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+@media (max-width: 600px) {     /* Op schermen kleiner dan 600px */
+  .carousel-caption {
+    display: none; /* Laat niet zien */
+  }
+  #icon {
+    max-width: 150px;
+  }
+  h2 {
+    font-size: 1.63em;
+  }
+}
