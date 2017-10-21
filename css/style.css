@@ -1,5 +1,4 @@
 /* CSS edit for main bootstrap page */
-
 .navbar {
   margin-bottom: 0; /* Geen ruimte buiten vlak */
   border-radius: 0; /* Haalt de ronde hoeken weg */
@@ -71,7 +70,13 @@ footer {
   }
 }
 @media (max-width: 600px) {     /* Op schermen kleiner dan 600px */
-  .carousel-caption {
+  #about-caption {
+    display: table;
+    float: center;
+    margin-left: 15%;
+    bottom: 10px;
+  }
+  #indexcarousel {
     display: none; /* Laat niet zien */
   }
   #icon {
@@ -80,4 +85,23 @@ footer {
   h2 {
     font-size: 1.63em;
   }
+}
+
+
+/* ABOUT.HTML */
+#header {
+  width: 100%;
+}
+
+#headerimg {
+  position: absolute;
+}
+
+#headertext {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  color: #ffffff;
+  text-transform: uppercase;
 }
