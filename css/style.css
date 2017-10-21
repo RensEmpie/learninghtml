@@ -91,16 +91,21 @@ footer {
 /* ABOUT.HTML */
 #header {
   width: 100%;
+  position: relative;
 }
 
 #headerimg {
-  position: absolute;
+  z-index: 1;
+  width: 100%;
 }
 
 #headertext {
+  z-index: 5;
   width: 100%;
   margin: 0 auto;
+  margin-top: -15%;
   text-align: center;
+  float: middle;
   position: absolute;
   color: #ffffff;
   text-transform: uppercase;
