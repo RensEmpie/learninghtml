@@ -110,3 +110,26 @@ footer {
   color: #ffffff;
   text-transform: uppercase;
 }
+
+#team {
+  margin-top: 50px;
+}
+
+ @media (max-width: 992px) {     /* Op schermen kleiner dan 600px */
+  #team {
+    margin-top: 0px;
+  }
+}
+
+
+
+/* Contact .HTML */
+#send {
+  position: relative;
+  display: inline-block;
+  right: 15px;
+}
+
+.textknop {
+  color: #ffffff;
+}
